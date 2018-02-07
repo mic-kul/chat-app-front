@@ -1,0 +1,57 @@
+
+.AdvisorChat {
+  background: aliceblue;
+ -ms-flex: 1;
+ -webkit-box-flex: 1;
+ -moz-box-flex: 1;
+ -ms-box-flex: 1;
+ box-flex: 1;
+}
+
+h1 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+ul.chat-logs {
+  border: 1px solid #ccc;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  list-style-type: none;
+}
+
+ul.chat-logs li {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.chat-logs li span.chat-created-at {
+  font-size: 14px;
+  color: #999;
+}
+
+input.chat-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  margin: 0;
+  border-radius: 3px;
+  /*width: calc(100% - 22px);*/
+  outline: none;
+  margin-bottom: 10px;
+}
+
+button.send {
+  background: #333;
+  color: #fff;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 3px;
+}
