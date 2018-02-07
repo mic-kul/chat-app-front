@@ -18,7 +18,7 @@ class Chat extends Component {
   }
 
   createSocket() {
-    let cable = Cable.createConsumer('ws://localhost:3000/cable');
+    let cable = Cable.createConsumer('ws://chat-app-api.ots.li/cable');
     this.chats = cable.subscriptions.create({
       channel: 'ChatChannel'
     }, {
