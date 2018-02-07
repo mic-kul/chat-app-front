@@ -11,18 +11,15 @@ class App extends Component {
 
 
   render() {
-    if (window.location.search.substr(1) == "agent") {
-          return (<div className='App'><div class="nav">
+    if (window.location.search.substr(1).includes("agent")) {
+          return (<div className='App'>
             <Conversations />
-          </div>
-          <div class="main">
             <AdvisorChat />
-          </div></div>);
+          </div>);
         } else {
           return (<div className='App'><Chat /></div>);
         }
   }
-
 
 }
 export default App;

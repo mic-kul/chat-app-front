@@ -5,6 +5,9 @@ div.stage {
   padding: 20px;
   box-shadow: 0 0 10px #333;
 }
+.Chat {
+  width: 100%;
+}
 
 h1 {
   margin-top: 0;

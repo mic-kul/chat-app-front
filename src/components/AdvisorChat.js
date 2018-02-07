@@ -9,7 +9,7 @@ class AdvisorChat extends Chat {
 
   render() {
     return (
-      <div className='Chat'>
+      <div className='AdvisorChat'>
         <h1>Advisor Chat</h1>
         <ul className='chat-logs'>
           { this.renderChatLog() }
